@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
 </head>
-<body style="background: linear-gradient(180deg, #4B0001 47.99%, #241010 100%);"> 
+<body style="background: linear-gradient(180deg, #340A0B 47.99%, #340A0B 100%);"> 
  
 <!-- Objeto animado no background (fixo na rolagem) -->
 <div style="
@@ -24,7 +24,7 @@
     flex-shrink: 0;
     aspect-ratio: 1/1;
     border-radius: 870px;
-    background: rgba(0, 111, 255, 0.22);
+    background: #AA191B;
     filter: blur(250px);
     animation: kf_120_594_scale_0 2s linear;
     animation-iteration-count: infinite;
@@ -51,16 +51,17 @@
     <div class="container">
         <div class="header-competicao">
             <div class="temporada">
-                <button class="botao" onclick="window.location.href='./home.html'">
-                    <span class="botao-texto">Home</span>
+                <button class="botao" onclick="window.location.href='./index.html'">
+                    <span class="botao-texto">Back</span>
                 </button>
                 <div class="line"></div>
                 <div class="texto-temporada">Temporada 2026</div>
             </div>
-   <div class="logo-competicao-amistoso">
-                    <img src=".\escudos\emirates-fa-cup-logo-footylogos.png" width="130px" alt="Logo">
+   <div class="logo-competicao-mundial">
+                    <video src="./escudos/emirates-fa-cup-logo-footylogos.mp4" autoplay="" loop="" muted="" playsinline="">
+        </video>
                 </div>
-                <div class="nome-competicao">EFL Championship</div>
+                <div class="nome-competicao">Emirates FA Cup</div>
             </div>
 
             <div class="temporada">
@@ -69,7 +70,7 @@
             </div>
         </div>
 <div class="tabela">      
-  <div class="matches-row">
+ <div class="matches-row">
     <div class="indicator indicator-victory"></div>
     <div class="row">
         <div class="time-casa">
@@ -78,72 +79,34 @@
         </div>
 
         <div class="placar">
-            <div class="ponto-casa">2</div>
-            <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/lincoln-city-logo-footylogos-320.webp" alt="Lincoln City"></div>
-            <div class="nome-do-time-fora">Lincoln City</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-defeat"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">Stoke City</div>
-            <div class="img-wrapper"><img src="./escudos/stoke-city-logo-footylogos-320.webp" alt="Stoke City"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">2</div>
+            <div class="ponto-casa">3</div>
             <div class="versus">X</div>
             <div class="ponto-visitante">1</div>
         </div>
 
         <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
-            <div class="nome-do-time-fora">West Ham United</div>
+            <div class="img-wrapper"><img src="./escudos/everton-logo-footylogos-320.webp" alt="Everton"></div>
+            <div class="nome-do-time-fora">Everton</div>
         </div>
     </div>
 </div>
-
+<div class="fase">
+                <div class="line"></div>
+                <div class="texto-fase-de-grupos">Oitavas de Final</div>
+                <div class="line"></div>
+            </div>
 <div class="matches-row">
     <div class="indicator indicator-victory"></div>
     <div class="row">
         <div class="time-casa">
-            <div class="nome-do-time-casa">West Ham United</div>
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
+            <div class="nome-do-time-casa">Arsenal</div>
+            <div class="img-wrapper"><img src="./escudos/arsenal-logo-footylogos-320.webp" alt="Arsenal"></div>
         </div>
 
         <div class="placar">
             <div class="ponto-casa">1</div>
             <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/portsmouth-logo-footylogos-320.webp" alt="Portsmouth"></div>
-            <div class="nome-do-time-fora">Portsmouth</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-draw"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">Burnley</div>
-            <div class="img-wrapper"><img src="./escudos/burnley-logo-footylogos-320.webp" alt="Burnley"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">2</div>
-            <div class="versus">X</div>
-            <div class="ponto-visitante">2</div>
+            <div class="ponto-visitante">3</div>
         </div>
 
         <div class="time-visitante">
@@ -152,7 +115,11 @@
         </div>
     </div>
 </div>
-
+<div class="fase">
+                <div class="line"></div>
+                <div class="texto-fase-de-grupos">Quartas de Final</div>
+                <div class="line"></div>
+            </div>
 <div class="matches-row">
     <div class="indicator indicator-victory"></div>
     <div class="row">
@@ -164,100 +131,15 @@
         <div class="placar">
             <div class="ponto-casa">3</div>
             <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/bolton-wanderers-logo-footylogos-320.webp" alt="Bolton Wanderers"></div>
-            <div class="nome-do-time-fora">Bolton Wanderers</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-draw"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">Queen's Park Rangers</div>
-            <div class="img-wrapper"><img src="./escudos/queens-park-rangers-logo-footylogos-320.webp" alt="Queen's Park Rangers"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">0</div>
-            <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
-            <div class="nome-do-time-fora">West Ham United</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-victory"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">West Ham United</div>
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">1</div>
-            <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/swansea-city-logo-footylogos-320.webp" alt="Swansea City"></div>
-            <div class="nome-do-time-fora">Swansea City</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-defeat"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">Norwich</div>
-            <div class="img-wrapper"><img src="./escudos/norwich-city-logo-footylogos-320.webp" alt="Norwich"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">1</div>
-            <div class="versus">X</div>
-            <div class="ponto-visitante">0</div>
-        </div>
-
-        <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
-            <div class="nome-do-time-fora">West Ham United</div>
-        </div>
-    </div>
-</div>
-
-<div class="matches-row">
-    <div class="indicator indicator-victory"></div>
-    <div class="row">
-        <div class="time-casa">
-            <div class="nome-do-time-casa">West Ham United</div>
-            <div class="img-wrapper"><img src="./escudos/west-ham-united-logo-footylogos-320.webp" alt="West Ham United"></div>
-        </div>
-
-        <div class="placar">
-            <div class="ponto-casa">2</div>
-            <div class="versus">X</div>
             <div class="ponto-visitante">1</div>
         </div>
 
         <div class="time-visitante">
-            <div class="img-wrapper"><img src="./escudos/southampton-logo-footylogos-320.webp" alt="Southampton"></div>
-            <div class="nome-do-time-fora">Southampton</div>
+            <div class="img-wrapper"><img src="./escudos/manchester-united-logo-footylogos-320.webp" alt="Manchester United"></div>
+            <div class="nome-do-time-fora">Manchester United</div>
         </div>
     </div>
 </div>
-
 
 </div>
 
