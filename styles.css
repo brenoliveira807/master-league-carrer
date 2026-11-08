@@ -919,7 +919,7 @@ animation: fadeIn 1.5s ease-out;
 
 /* Subtítulo Campeonato */
 .campeonato .titulo-campeonato {
-    color: rgba(255, 255, 255, 0.50);
+    color: rgb(255, 255, 255);
     font-family: "Titillium Web";
     font-size: 12px;
     line-height: normal;
