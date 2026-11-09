@@ -935,3 +935,17 @@ animation: fadeIn 1.5s ease-out;
     line-height: normal;
     font-weight: 600;
 }
+.match-row-details {
+    display: flex;
+    width: 1408px;
+    flex-direction: column;
+    align-items: center;
+}
+.goal-score {
+display: flex;
+padding: 8px 0 8px 2px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
